@@ -32,8 +32,6 @@ public class SwitchWindow {
 
 	@Test
 	public void test()throws InterruptedException {
-
-
 		
 		// Get the handle
 		String parentHandle = driver.getWindowHandle();
