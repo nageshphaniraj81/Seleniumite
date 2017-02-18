@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -26,6 +27,7 @@ public class ExpediaHomeFromFactory {
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		baseURL = "https://www.expedia.com/";
 		searchPage = new SearchPageFactory(driver);
+		
 	}
 
 	@Test
