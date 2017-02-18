@@ -28,17 +28,28 @@ public class TestNG_TestCase {
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		baseURL = "https://www.expedia.com/";
 		PropertyConfigurator.configure("Log4j.properties");
+		driver.get(baseURL);
 	}
 
 	@Test
-	public void testMethod() throws InterruptedException {
-		driver.get(baseURL);
+	public void fillBasicInfo() throws InterruptedException {
 		Thread.sleep(3000);
     	driver.findElement(By.id("tab-flight-tab")).click();
 		SearchPage.fillOriginTextBox(driver, "New York");
 		SearchPage.fillDestinationTextBox(driver, "Chicago");
 		SearchPage.fillDepartureDateTextBox(driver, "30/10/2017");
 		SearchPage.fillReturnDateTextBox(driver, "02/11/2017");
+	}
+	
+	@Test
+	public void fillAdvancedInfo() throws InterruptedException {
+		Thread.sleep(3000);
+		// click on one way tab
+		driver.findElement(By.id("tab-flight-tab")).click();
+    	driver.findElement(By.id("flight-type-one-way-label")).click();
+		SearchPage.fillOriginTextBox(driver, "New York");
+		SearchPage.fillDestinationTextBox(driver, "Chicago");
+		SearchPage.fillDepartureDateTextBox(driver, "30/10/2017");
 	}
 
 	@AfterMethod
