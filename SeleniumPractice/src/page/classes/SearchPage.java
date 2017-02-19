@@ -73,4 +73,11 @@ public class SearchPage {
 		element.click();
 	}
 	
+	public static void clearAllFields(WebDriver driver){
+		driver.findElement(By.id("flight-origin")).clear();
+		driver.findElement(By.id("flight-departing")).clear();
+		driver.findElement(By.id("flight-destination")).clear();
+		driver.findElement(By.id("flight-returning")).clear();
+	}
+	
 }

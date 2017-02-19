@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="Utilities.SeleniumListeners"/>
+  </listeners>
+  <test name="Firefox Listners Test(failed)">
+    <classes>
+      <class name="TestCases.TestNG_TestCaseForListner">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="fillBasicInfo"/>
+          <include name="fillAdvancedInfo"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestCases.TestNG_TestCaseForListner -->
+    </classes>
+  </test> <!-- Firefox Listners Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
