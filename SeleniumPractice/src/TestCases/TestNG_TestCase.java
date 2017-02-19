@@ -41,7 +41,7 @@ public class TestNG_TestCase {
 		SearchPage.fillReturnDateTextBox(driver, "02/11/2017");
 	}
 	
-	@Test
+	@Test(dependsOnMethods={"fillBasicInfo"})
 	public void fillAdvancedInfo() throws InterruptedException {
 		Thread.sleep(3000);
 		// click on one way tab

@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="51023" started-at="2017-02-18T20:50:15Z" finished-at="2017-02-18T20:51:06Z">
+  <suite name="Default suite" duration-ms="55464" started-at="2017-02-19T12:45:26Z" finished-at="2017-02-19T12:46:22Z">
     <groups>
     </groups>
-    <test name="ExpediaSearchPage" duration-ms="51023" started-at="2017-02-18T20:50:15Z" finished-at="2017-02-18T20:51:06Z">
+    <test name="Default test" duration-ms="55464" started-at="2017-02-19T12:45:26Z" finished-at="2017-02-19T12:46:22Z">
       <class name="TestCases.TestNG_TestCase">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.TestNG_TestCase@59ec2012]" name="beforeMethod" is-config="true" duration-ms="17083" started-at="2017-02-19T02:20:15Z" finished-at="2017-02-19T02:20:32Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.TestNG_TestCase@271053e1]" name="beforeMethod" is-config="true" duration-ms="20122" started-at="2017-02-19T18:15:26Z" finished-at="2017-02-19T18:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:TestCases.TestNG_TestCase@59ec2012]" name="fillBasicInfo" duration-ms="3914" started-at="2017-02-19T02:20:32Z" finished-at="2017-02-19T02:20:36Z">
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:TestCases.TestNG_TestCase@271053e1]" name="fillBasicInfo" duration-ms="3750" started-at="2017-02-19T18:15:46Z" finished-at="2017-02-19T18:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillBasicInfo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.TestNG_TestCase@59ec2012]" name="afterMethod" is-config="true" duration-ms="4685" started-at="2017-02-19T02:20:36Z" finished-at="2017-02-19T02:20:41Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.TestNG_TestCase@271053e1]" name="afterMethod" is-config="true" duration-ms="4936" started-at="2017-02-19T18:15:50Z" finished-at="2017-02-19T18:15:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.TestNG_TestCase@59ec2012]" name="beforeMethod" is-config="true" duration-ms="16631" started-at="2017-02-19T02:20:41Z" finished-at="2017-02-19T02:20:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.TestNG_TestCase@271053e1]" name="beforeMethod" is-config="true" duration-ms="17827" started-at="2017-02-19T18:15:55Z" finished-at="2017-02-19T18:16:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="fillAdvancedInfo()[pri:0, instance:TestCases.TestNG_TestCase@59ec2012]" name="fillAdvancedInfo" duration-ms="4192" started-at="2017-02-19T02:20:57Z" finished-at="2017-02-19T02:21:01Z">
+        <test-method status="PASS" signature="fillAdvancedInfo()[pri:0, instance:TestCases.TestNG_TestCase@271053e1]" name="fillAdvancedInfo" duration-ms="4161" started-at="2017-02-19T18:16:13Z" depends-on-methods="TestCases.TestNG_TestCase.fillBasicInfo" finished-at="2017-02-19T18:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillAdvancedInfo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.TestNG_TestCase@59ec2012]" name="afterMethod" is-config="true" duration-ms="4493" started-at="2017-02-19T02:21:01Z" finished-at="2017-02-19T02:21:06Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.TestNG_TestCase@271053e1]" name="afterMethod" is-config="true" duration-ms="4611" started-at="2017-02-19T18:16:17Z" finished-at="2017-02-19T18:16:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- TestCases.TestNG_TestCase -->
-    </test> <!-- ExpediaSearchPage -->
-  </suite> <!-- TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
