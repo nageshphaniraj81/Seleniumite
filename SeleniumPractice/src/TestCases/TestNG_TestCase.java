@@ -2,7 +2,7 @@ package TestCases;
 
 import org.testng.annotations.Test;
 
-import page.classes.SearchPage;
+import PageObjects.SearchPage;
 
 import org.testng.annotations.BeforeMethod;
 

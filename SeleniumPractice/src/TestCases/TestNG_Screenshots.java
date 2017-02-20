@@ -13,6 +13,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Utilities.Screenshots;
+
 public class TestNG_Screenshots {
 	private WebDriver driver;
 	private String baseUrl;
@@ -63,7 +65,7 @@ public class TestNG_Screenshots {
 	@AfterMethod
 	public void tearDown(ITestResult testResult) throws IOException {
 		if (testResult.getStatus() == ITestResult.FAILURE) {
-			Utilities.ScreenShotsNew.takeScreenshot(driver, testResult.getName());
+			Screenshots.takeScreenshot(driver, testResult.getName());
 		}
 		driver.quit();
 	}

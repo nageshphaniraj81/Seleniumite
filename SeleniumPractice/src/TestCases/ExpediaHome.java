@@ -12,7 +12,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import page.classes.SearchPage;
+
+import PageObjects.SearchPage;
 
 public class ExpediaHome {
 	private WebDriver driver;

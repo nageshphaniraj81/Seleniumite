@@ -12,7 +12,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import page.classes.SearchPage;
+
+import PageObjects.SearchPage;
 
 @Listeners(Utilities.SeleniumListeners.class)
 public class TestNG_TestCaseForListner {

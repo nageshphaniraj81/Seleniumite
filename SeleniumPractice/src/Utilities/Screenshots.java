@@ -26,4 +26,11 @@ public class Screenshots {
 		FileUtils.copyFile(sourceFile, new File(directory + fileName));
 	}
 	
+	public static void takeScreenshot(WebDriver driver, String fileName) throws IOException {
+		fileName = fileName + ".png";
+		String directory = "C:\\Temp\\";
+		File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(sourceFile, new File(directory + fileName));
+	}
+	
 }
