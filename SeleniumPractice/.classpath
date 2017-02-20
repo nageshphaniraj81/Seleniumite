@@ -38,5 +38,9 @@
 	<classpathentry kind="lib" path="C:/Selenium/Seleniumite/selenium-java-3.0.1/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Seleniumite/selenium-java-3.0.1/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="C:/DevTools/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/DevTools/extentreports-2.40.1.jar"/>
+	<classpathentry kind="lib" path="C:/DevTools/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/DevTools/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/DevTools/sqlite-jdbc-3.8.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

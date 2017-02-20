@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27727" started-at="2017-02-19T19:06:26Z" finished-at="2017-02-19T19:06:53Z">
+  <suite name="Extent TestSuite" duration-ms="56162" started-at="2017-02-20T20:04:34Z" finished-at="2017-02-20T20:05:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27727" started-at="2017-02-19T19:06:26Z" finished-at="2017-02-19T19:06:53Z">
-      <class name="TestCases.TestNG_Screenshots">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TestNG_Screenshots@77caeb3e]" name="setUp" is-config="true" duration-ms="17253" started-at="2017-02-20T00:36:26Z" finished-at="2017-02-20T00:36:43Z">
+    <test name="Firefox Listners Test" duration-ms="56162" started-at="2017-02-20T20:04:34Z" finished-at="2017-02-20T20:05:30Z">
+      <class name="TestCases.GenericTestCases.LoginTest2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2]" name="beforeClass" is-config="true" duration-ms="14757" started-at="2017-02-21T01:35:08Z" finished-at="2017-02-21T01:35:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1_invalidCredentials()[pri:0, instance:TestCases.TestNG_Screenshots@77caeb3e]" name="test1_invalidCredentials" duration-ms="7724" started-at="2017-02-20T00:36:43Z" finished-at="2017-02-20T00:36:51Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2]" name="test1_validLoginTest" duration-ms="5769" started-at="2017-02-21T01:35:23Z" finished-at="2017-02-21T01:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_validLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2]" name="tearDown" is-config="true" duration-ms="1584" started-at="2017-02-21T01:35:28Z" finished-at="2017-02-21T01:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1_validLoginTest status=SUCCESS method=LoginTest2.test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.GenericTestCases.LoginTest2 -->
+      <class name="TestCases.GenericTestCases.SeleniumLoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137]" name="beforeClass" is-config="true" duration-ms="15990" started-at="2017-02-21T01:34:34Z" finished-at="2017-02-21T01:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137]" name="test1_validLoginTest" duration-ms="15343" started-at="2017-02-21T01:34:50Z" finished-at="2017-02-21T01:35:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -22,7 +43,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at TestCases.TestNG_Screenshots.test1_invalidCredentials(TestNG_Screenshots.java:60)
+	at TestCases.GenericTestCases.SeleniumLoginTest.test1_validLoginTest(SeleniumLoginTest.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,19 +74,19 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1_invalidCredentials -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.TestNG_Screenshots@77caeb3e]" name="tearDown" is-config="true" duration-ms="2716" started-at="2017-02-20T00:36:51Z" finished-at="2017-02-20T00:36:53Z">
+        </test-method> <!-- test1_validLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137]" name="tearDown" is-config="true" duration-ms="2695" started-at="2017-02-21T01:35:05Z" finished-at="2017-02-21T01:35:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1_invalidCredentials status=FAILURE method=TestNG_Screenshots.test1_invalidCredentials()[pri:0, instance:TestCases.TestNG_Screenshots@77caeb3e] output={null}]]]>
+                <![CDATA[[TestResult name=test1_validLoginTest status=FAILURE method=SeleniumLoginTest.test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TestNG_Screenshots -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestCases.GenericTestCases.SeleniumLoginTest -->
+    </test> <!-- Firefox Listners Test -->
+  </suite> <!-- Extent TestSuite -->
 </testng-results>

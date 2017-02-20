@@ -43,7 +43,7 @@ Reporter.log("onFinish Test - Completed executing Test set " + arg0.getName(), t
 public void onTestSuccess(ITestResult arg0) {
 // This is calling the printTestResults method
 Object currentClass = arg0.getInstance();
-WebDriver driver = ((TestCases.TestNG_TestCaseForListner)currentClass).getDriver();
+WebDriver driver = ((TestCases.GenericTestCases.TestNG_TestCaseForListner)currentClass).getDriver();
 
 try {
 	ss.takeScreenshot(driver);
@@ -58,7 +58,7 @@ printTestResults(arg0);
 public void onTestFailure(ITestResult arg0) {
 // This is calling the printTestResults method
 Object currentClass = arg0.getInstance();
-WebDriver driver = ((TestCases.TestNG_TestCaseForListner)currentClass).getDriver();
+WebDriver driver = ((TestCases.GenericTestCases.TestNG_TestCaseForListner)currentClass).getDriver();
 
 try {
 	ss.takeScreenshot(driver);

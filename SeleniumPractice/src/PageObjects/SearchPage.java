@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import TestCases.ExpediaHome;
+import TestCases.GenericTestCases.ExpediaHome;
 
 public class SearchPage {
 	

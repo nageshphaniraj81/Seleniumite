@@ -1,0 +1,9 @@
+<suite name="Extent TestSuite">
+<test name="Firefox Listners Test">
+	<classes>
+		<class name="TestCases.GenericTestCases.SeleniumLoginTest"></class>
+		<class name="TestCases.GenericTestCases.LoginTest2"></class>
+	</classes>
+</test>
+</suite>
+

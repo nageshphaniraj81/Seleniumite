@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.TestNG_Screenshots">
+      <class name="TestCases.GenericTestCases.SeleniumLoginTest">
         <methods>
-          <include name="setUp"/>
+          <include name="beforeClass"/>
           <include name="tearDown"/>
-          <include name="test1_invalidCredentials"/>
+          <include name="test1_validLoginTest"/>
         </methods>
-      </class> <!-- TestCases.TestNG_Screenshots -->
+      </class> <!-- TestCases.GenericTestCases.SeleniumLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
