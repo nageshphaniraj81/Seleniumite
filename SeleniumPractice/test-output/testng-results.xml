@@ -1,92 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Extent TestSuite" duration-ms="56162" started-at="2017-02-20T20:04:34Z" finished-at="2017-02-20T20:05:30Z">
+  <suite name="Default suite" duration-ms="22019" started-at="2017-02-21T17:17:53Z" finished-at="2017-02-21T17:18:15Z">
     <groups>
     </groups>
-    <test name="Firefox Listners Test" duration-ms="56162" started-at="2017-02-20T20:04:34Z" finished-at="2017-02-20T20:05:30Z">
-      <class name="TestCases.GenericTestCases.LoginTest2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2]" name="beforeClass" is-config="true" duration-ms="14757" started-at="2017-02-21T01:35:08Z" finished-at="2017-02-21T01:35:23Z">
+    <test name="Default test" duration-ms="22019" started-at="2017-02-21T17:17:53Z" finished-at="2017-02-21T17:18:15Z">
+      <class name="TestCases.GenericTestCases.Login">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GenericTestCases.Login@42d80b78]" name="beforeClass" is-config="true" duration-ms="14492" started-at="2017-02-21T22:47:53Z" finished-at="2017-02-21T22:48:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2]" name="test1_validLoginTest" duration-ms="5769" started-at="2017-02-21T01:35:23Z" finished-at="2017-02-21T01:35:28Z">
+        <test-method status="PASS" signature="test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.Login@42d80b78]" name="test1_validLoginTest" duration-ms="5448" started-at="2017-02-21T22:48:08Z" finished-at="2017-02-21T22:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1_validLoginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2]" name="tearDown" is-config="true" duration-ms="1584" started-at="2017-02-21T01:35:28Z" finished-at="2017-02-21T01:35:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.GenericTestCases.Login@42d80b78]" name="tearDown" is-config="true" duration-ms="2053" started-at="2017-02-21T22:48:13Z" finished-at="2017-02-21T22:48:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1_validLoginTest status=SUCCESS method=LoginTest2.test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.LoginTest2@6a41eaa2] output={null}]]]>
+                <![CDATA[[TestResult name=test1_validLoginTest status=SUCCESS method=Login.test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.Login@42d80b78] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.GenericTestCases.LoginTest2 -->
-      <class name="TestCases.GenericTestCases.SeleniumLoginTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137]" name="beforeClass" is-config="true" duration-ms="15990" started-at="2017-02-21T01:34:34Z" finished-at="2017-02-21T01:34:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137]" name="test1_validLoginTest" duration-ms="15343" started-at="2017-02-21T01:34:50Z" finished-at="2017-02-21T01:35:05Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at TestCases.GenericTestCases.SeleniumLoginTest.test1_validLoginTest(SeleniumLoginTest.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1_validLoginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137]" name="tearDown" is-config="true" duration-ms="2695" started-at="2017-02-21T01:35:05Z" finished-at="2017-02-21T01:35:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test1_validLoginTest status=FAILURE method=SeleniumLoginTest.test1_validLoginTest()[pri:0, instance:TestCases.GenericTestCases.SeleniumLoginTest@685cb137] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.GenericTestCases.SeleniumLoginTest -->
-    </test> <!-- Firefox Listners Test -->
-  </suite> <!-- Extent TestSuite -->
+      </class> <!-- TestCases.GenericTestCases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
