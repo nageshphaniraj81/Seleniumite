@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Extent TestSuite]">
-  <test name="Firefox Listners Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.GenericTestCases.LoginTest2">
+      <class name="TestCases.GenericTestCases.UsingExcel">
         <methods>
           <include name="tearDown"/>
-          <include name="beforeClass"/>
+          <include name="testUsingExcel" invocation-numbers="0"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.GenericTestCases.LoginTest2 -->
-      <class name="TestCases.GenericTestCases.SeleniumLoginTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="tearDown"/>
-          <include name="test1_validLoginTest"/>
-        </methods>
-      </class> <!-- TestCases.GenericTestCases.SeleniumLoginTest -->
+      </class> <!-- TestCases.GenericTestCases.UsingExcel -->
     </classes>
-  </test> <!-- Firefox Listners Test(failed) -->
-</suite> <!-- Failed suite [Extent TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

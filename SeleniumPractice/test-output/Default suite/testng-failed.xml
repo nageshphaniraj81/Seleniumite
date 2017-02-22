@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.GenericTestCases.SeleniumLoginTest">
+      <class name="TestCases.GenericTestCases.UsingExcel">
         <methods>
-          <include name="beforeClass"/>
           <include name="tearDown"/>
-          <include name="test1_validLoginTest"/>
+          <include name="testUsingExcel" invocation-numbers="0"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.GenericTestCases.SeleniumLoginTest -->
+      </class> <!-- TestCases.GenericTestCases.UsingExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
