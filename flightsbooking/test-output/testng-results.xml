@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93199" started-at="2017-02-23T08:26:58Z" finished-at="2017-02-23T08:28:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93199" started-at="2017-02-23T08:26:58Z" finished-at="2017-02-23T08:28:31Z">
+      <class name="com.makemyvacation.flightsbooking.TestNG_TestCase">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.makemyvacation.flightsbooking.TestNG_TestCase@224edc67]" name="beforeMethod" is-config="true" duration-ms="21778" started-at="2017-02-23T13:56:58Z" finished-at="2017-02-23T13:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.makemyvacation.flightsbooking.TestNG_TestCase@224edc67]" name="fillBasicInfo" duration-ms="3720" started-at="2017-02-23T13:57:20Z" finished-at="2017-02-23T13:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillBasicInfo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.makemyvacation.flightsbooking.TestNG_TestCase@224edc67]" name="afterMethod" is-config="true" duration-ms="4852" started-at="2017-02-23T13:57:24Z" finished-at="2017-02-23T13:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.makemyvacation.flightsbooking.TestNG_TestCase@224edc67]" name="beforeMethod" is-config="true" duration-ms="53938" started-at="2017-02-23T13:57:29Z" finished-at="2017-02-23T13:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fillAdvancedInfo()[pri:0, instance:com.makemyvacation.flightsbooking.TestNG_TestCase@224edc67]" name="fillAdvancedInfo" duration-ms="4327" started-at="2017-02-23T13:58:23Z" depends-on-methods="com.makemyvacation.flightsbooking.TestNG_TestCase.fillBasicInfo" finished-at="2017-02-23T13:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAdvancedInfo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.makemyvacation.flightsbooking.TestNG_TestCase@224edc67]" name="afterMethod" is-config="true" duration-ms="4550" started-at="2017-02-23T13:58:27Z" finished-at="2017-02-23T13:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.makemyvacation.flightsbooking.TestNG_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
