@@ -17,20 +17,9 @@ public class App {
 		isOrdered(1, 1, 2, true) <b>---></b> true <br>
 	 */
 	public static boolean isOrdered(int first, int second, int third, boolean itsOk) {
-		
-		return true;
+		return (!itsOk)? (second > first && third > second): (third > second) ;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	//----------------------STARTING POINT OF PROGRAM. IGNORE BELOW --------------------//
 	public static void main(String args[]){
 		TestingUtils.runTests();

@@ -19,7 +19,20 @@ public class App {
 	 */
 	public static boolean birdsSinging(int temp, boolean isSummer) {
 		
-		return true;		
+//		// Regular way
+//		int minTemperature = 60;
+//		int maxTemperature = 90;
+//		
+//		if(isSummer){
+//			maxTemperature = 100;
+//		}
+//		
+//		return (temp >= minTemperature && temp <= maxTemperature);	
+		
+		// Ternury operatore
+		
+		return (isSummer) ? (temp >= 60 && temp <= 100) : (temp >= 60 && temp <= 90);
+		
 	}
 	
 	
