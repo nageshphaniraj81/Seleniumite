@@ -21,7 +21,10 @@ public class App {
 	
 	public static int partialSum(int a, int b, int c) {
 		
-		return 0;
+		if(a!=13&&b!=13&&c==13)return a+b;
+		if(a!=13&&b==13)return a;
+		if(a==13)return 0;
+		else return a+b+c;
 		
 	}
 

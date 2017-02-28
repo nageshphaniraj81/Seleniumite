@@ -17,7 +17,15 @@ public class App {
 	 */
 	
 	public static int wordsCount(String[] words, int len) {
-		return 0;
+		
+		int count = 0;
+		
+		for(String s: words){
+			if(s.length()==len)
+				count++;
+		}
+		
+		return count;
 	}
 
 	
