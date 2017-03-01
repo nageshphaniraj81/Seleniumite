@@ -54,5 +54,6 @@
 	<classpathentry kind="lib" path="C:/DevTools/poi-Excel-datadriventest/poi-bin-3.16-beta2-20170202 (1)/poi-3.16-beta2/lib/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="C:/DevTools/poi-Excel-datadriventest/poi-bin-3.16-beta2-20170202 (1)/poi-3.16-beta2/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/DevTools/poi-Excel-datadriventest/poi-bin-3.16-beta2-20170202 (1)/poi-3.16-beta2/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/DevTools/mysql-connector-java-5.1.41-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
