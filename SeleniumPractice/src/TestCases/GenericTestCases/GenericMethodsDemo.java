@@ -12,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import Utilities.GenericMethods;
+
 public class GenericMethodsDemo {
 
 	private WebDriver driver;

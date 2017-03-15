@@ -63,7 +63,6 @@ public class Screenshots {
 	public void tearDown() throws Exception {
 		String fileName = getRandomString(10) + ".png";
 		String directory = "C:\\Temp\\";
-		
 		File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(sourceFile, new File(directory + fileName));
 		driver.quit();

@@ -1,4 +1,4 @@
-package TestCases.GenericTestCases;
+package Utilities;
 
 import java.util.ArrayList;
 import java.util.List;

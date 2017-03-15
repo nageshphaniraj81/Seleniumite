@@ -12,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import Utilities.GenericMethods;
+
 public class ElementListDemo {
 
 	private WebDriver driver;
@@ -30,8 +32,7 @@ public class ElementListDemo {
 
 	@Test
 	public void testDropdown() throws Exception{
-		driver.get(baseUrl1);
-		
+		driver.get(baseUrl1);	
 		List <WebElement> elementList = generic.getElementList("//input[@type='text']", "xpath");
         System.out.println("Element list size :"+elementList.size());
 		

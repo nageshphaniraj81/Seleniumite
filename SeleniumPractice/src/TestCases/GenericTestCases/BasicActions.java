@@ -30,6 +30,7 @@ public class BasicActions {
 		driver.findElement(By.id("user_email")).clear();
 		driver.findElement(By.id("user_email")).sendKeys("test@email.com");
 		driver.findElement(By.id("user_password")).sendKeys("test");
+		
 	}
 
 	@After
