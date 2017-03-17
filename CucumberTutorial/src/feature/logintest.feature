@@ -1,12 +1,10 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-Feature:Login
-Scenario:Successful Login with valid credentials
-Given User is on Home Page 
-When User enters UserName and Password
-Then He can visit the practice page
+Feature: Login
+Description: This feature is to test the login functionality
 
-Scenario: Successful LogOut
-When User LogOut from the Application
-Then he cannot visit practice page
+Scenario: Successful Login with Valid Credentials
+Given User is on Home Page
+When User enters Username and Password
+And Clicks Go button
+Then He can visit the practice page
+And A message is displayed
+
