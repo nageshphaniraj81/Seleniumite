@@ -2,19 +2,19 @@ package DSClasses;
 
 public class Queue {
 	
-	private int maxSize;
-	private long [] queueArray;
-	private int front;
-	private int rear;
-	private int nItems;
+	private int maxSize; // Set number of slots
+	private long [] queueArray; // slots to maintain data
+	private int front; // this is the index postition of front
+	private int rear; // this is the index postition of rear
+	private int nItems; // counter to maintain number of items
 	
 	public Queue(int size) {
 		super();
 		this.maxSize = size;
 		this.queueArray = new long[size];
-		this.front = 0;
-		this.rear = -1;
-		this.nItems = 0;
+		this.front = 0; // Index position of the first slot of the array
+		this.rear = -1; // There is no item in the array yet to be considered as the last item
+		this.nItems = 0; // we dont have elements in the array yet
 	}
 	
 	public void insert(long j){

@@ -1,4 +1,6 @@
-package adt;
+package AppClasses;
+
+import DSClasses.Counter;
 
 public class TestCounter {
 

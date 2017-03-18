@@ -1,4 +1,4 @@
-package adt;
+package DSClasses;
 
 public class Counter {
 	
