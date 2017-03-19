@@ -1,7 +1,6 @@
-package AppClasses;
+package Stacks;
 
-import DSClasses.Queue;
-import DSClasses.Stack;
+import Queues.Queue;
 
 public class AppStack {
 

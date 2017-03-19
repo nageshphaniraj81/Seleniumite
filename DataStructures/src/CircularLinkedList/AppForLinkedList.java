@@ -1,5 +1,5 @@
-package AppClasses;
-import DSClasses.Node;
+package CircularLinkedList;
+import SinglyLinkedList.Node;
 
 public class AppForLinkedList {
 

@@ -1,5 +1,4 @@
-package AppClasses;
-import DSClasses.SinglyLinkedList;;
+package SinglyLinkedList;
 
 public class AppForSinglyLinkedList {
 

@@ -1,4 +1,4 @@
-package DSClasses;
+package SinglyLinkedList;
 
 public class Node {
 	

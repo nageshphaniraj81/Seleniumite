@@ -1,6 +1,4 @@
-package AppClasses;
-
-import DSClasses.Counter;
+package AbstractDataType;
 
 public class TestCounter {
 

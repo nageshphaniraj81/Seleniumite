@@ -1,4 +1,4 @@
-package DSClasses;
+package Queues;
 
 public class Queue {
 	

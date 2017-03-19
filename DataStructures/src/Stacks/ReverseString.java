@@ -1,5 +1,4 @@
-package AppClasses;
-import DSClasses.StackString;
+package Stacks;
 
 public class ReverseString {
 

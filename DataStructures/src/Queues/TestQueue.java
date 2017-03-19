@@ -1,6 +1,4 @@
-package AppClasses;
-
-import DSClasses.Queue;
+package Queues;
 
 public class TestQueue {
 

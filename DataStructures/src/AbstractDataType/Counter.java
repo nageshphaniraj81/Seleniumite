@@ -1,4 +1,4 @@
-package DSClasses;
+package AbstractDataType;
 
 public class Counter {
 	

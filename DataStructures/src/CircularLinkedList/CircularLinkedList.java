@@ -1,42 +1,46 @@
-package DSClasses;
+package CircularLinkedList;
 
-public class SinglyLinkedList {
-	
+import SinglyLinkedList.Node;
+
+public class CircularLinkedList {
 	private Node first;
+	private Node last;
 	
-	public SinglyLinkedList(){
+	public CircularLinkedList(){
 		first = null;
+		last = null;
 	}
 	
-	// To check if the linked list is empty
 	public boolean isEmpty(){
-		return(first == null);
+		return first == null;
 	}
 	
-	// To insert at the beginning of the list
 	public void insertFirst(int data){
 		Node newNode = new Node();
 		newNode.data = data;
+		if(isEmpty()){
+			last = newNode;
+		}
 		newNode.next = first;
 		first = newNode;
-	
 	}
 	
-	// To insert at the end of the list
 	public void insertLast(int data){
-		Node current = first;
-		while (current.next != null){
-			current = current.next;
-		}
 		Node newNode = new Node();
 		newNode.data = data;
-		current.next = newNode;
+		if(isEmpty()){
+			first = newNode;
+		}
+		last.next = newNode;
+		last = newNode;	
 	}
 	
-	// To delete first node
-	public Node deleteFirst(){
-		Node temp = first;
-		first = first.next;
+	public int deleteFirst(){
+		int temp = first.data;
+		if(first.next == null){
+			last = null;
+		}
+		first  = first.next;
 		return temp;
 	}
 	
@@ -50,5 +54,8 @@ public class SinglyLinkedList {
 		}
 		System.out.println();
 	}
+
+	
+
 
 }
