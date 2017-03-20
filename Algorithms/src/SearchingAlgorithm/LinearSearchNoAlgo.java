@@ -1,4 +1,4 @@
-package Linearsearch;
+package SearchingAlgorithm;
 
 // Complexity : ( O (n))
 
