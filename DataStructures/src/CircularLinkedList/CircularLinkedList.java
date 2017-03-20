@@ -5,57 +5,53 @@ import SinglyLinkedList.Node;
 public class CircularLinkedList {
 	private Node first;
 	private Node last;
-	
-	public CircularLinkedList(){
+
+	public CircularLinkedList() {
 		first = null;
 		last = null;
 	}
-	
-	public boolean isEmpty(){
+
+	public boolean isEmpty() {
 		return first == null;
 	}
-	
-	public void insertFirst(int data){
+
+	public void insertFirst(int data) {
 		Node newNode = new Node();
 		newNode.data = data;
-		if(isEmpty()){
+		if (isEmpty()) {
 			last = newNode;
 		}
 		newNode.next = first;
 		first = newNode;
 	}
-	
-	public void insertLast(int data){
+
+	public void insertLast(int data) {
 		Node newNode = new Node();
 		newNode.data = data;
-		if(isEmpty()){
+		if (isEmpty()) {
 			first = newNode;
 		}
 		last.next = newNode;
-		last = newNode;	
+		last = newNode;
 	}
-	
-	public int deleteFirst(){
+
+	public int deleteFirst() {
 		int temp = first.data;
-		if(first.next == null){
+		if (first.next == null) {
 			last = null;
 		}
-		first  = first.next;
+		first = first.next;
 		return temp;
 	}
-	
+
 	// To display linked list
-	public void displayList(){
+	public void displayList() {
 		System.out.println("List (first -> last)");
 		Node current = first;
-		while (current != null){
+		while (current != null) {
 			current.displayNode();
 			current = current.next;
 		}
 		System.out.println();
 	}
-
-	
-
-
 }

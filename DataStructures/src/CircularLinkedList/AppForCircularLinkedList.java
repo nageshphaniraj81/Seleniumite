@@ -13,5 +13,13 @@ public class AppForCircularLinkedList {
 		myList.displayList();
 
 	}
-
 }
+
+// OutPut:
+// List (first -> last)
+// { 88 }
+// { 99 }
+// { 50 }
+// { 100 }
+// { 99999 }
+// { 88888 }
